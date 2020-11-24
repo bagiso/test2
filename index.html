@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+
+		body,html,section,div,h1,h2,h3,p{margin:0;}
+		body{background-size: 100%; 
+		background-image: url('rainbow.gif');
+		background-repeat: no-repeat; 
+		background-attachment: scroll; margin: 0px}
+
+		section{height: 600px;}
+		h1{font-size: 4em; text-align: center; font-family: 'Noto Sans KR', sans-serif; font-weight: 900; }
+		.h12{font-size: 3em;}
+		.h1s{font-size: 8em; line-height: 1;  margin-top:100px;
+
+		 color: black; animation-name: example;  animation-duration: 3s; animation-iteration-count:infinite;}
+		 h2{font-family: 'Noto Sans KR', sans-serif; font-weight: 900; text-align: center; margin-top:100px;}
+		 #a {position: absolute; animation: leftright 2s infinite; left:1000px; }
+		#a2 {position: absolute; animation: leftright 2s infinite; left:800px; }
+		#a3 {position: absolute; animation: leftright 2s infinite; left:1200px; }
+		#a4 {position: absolute; animation: leftright 2s infinite; left:1400px; }
+		#w2 {position: absolute; left:750px; top:1000px; color: white;}
+		 #img1{position: absolute; left:550px; top:550px; width: 300px;}
+		 #img2{position: absolute; left:850px; top:850px; width: 300px;} 
+		 #img3{position: absolute; left:1550px; top:500px; width: 250px;}
+		  #img4{position: absolute; left:1750px; top:700px; width: 400px;}
+		  #img5{position: absolute; left:300px; top:750px; width: 700px;}
+	 #img6{position: fixed; left:1000px; top:1000px; ;}
+		@keyframes example {from {color: black;} to {color: white; } }
+		@keyframes leftright{0%{} 100%{transform:rotate(360deg);}
+        .img:hover {transform: rotate( 720deg );}
+
+		.row{ margin: auto; position: relative;}
+		.col-1{width: 100%}
+		.col-2{width: 66.66%}
+		.col-3{width: 50%}
+		.col-4{width: 33.33%}
+		.h-1000{height: 1000px;}
+
+		
+	</style>
+</head>
+<body>
+	<section>
+		<div class="row">
+			<div class="col-1 h-1000">
+				<h1 class="h1s">★당신의 별명은<br> 무엇인가요?★</h1>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section>
+		<style type="text/css">
+
+		</style>
+		<div class="row">
+			<div class="col-1 h-1000">
+				<img class ="image" src="./1.png" id="img1" >
+				<img class ="image" src="./2.png" id="img2" >
+				<img class ="image" src="./4.png" id="img3" >
+				<img class ="image" src="./3.png" id="img5" >
+				<img class ="image" src="./namsoo.png" id="img4" >
+
+				<h1 id=w>모든 사람에게는 각자 별명이 있습니다.</h1>
+				  <h1 class="h12" id=a>갈매기 </h1>
+				 <h1 class="h12" id=a2>오징어 </h1>
+				 <h1 class="h12" id=a3>남남수수 </h1>
+				 <h1 class="h12" id=a4>동원참치 </h1>
+
+				 <h2 id=w2><<< 귀여워!</h2>
+
+
+
+			</div>
+		</div>
+	</section>
+
+	<section>
+			<div class="row">
+<img src="./nick.png" id="img6">
+	</section>
+</body>
+</html>
